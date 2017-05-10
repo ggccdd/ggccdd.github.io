@@ -1,0 +1,27 @@
+# Site settings
+title: Joey's Blog
+header-img: img/home-bg.jpg
+email: 4cclei@gmail.com
+copyright_name: 4ucl
+description: "好记性不如烂笔头，不记容易忘"
+baseurl: ""
+url: "http://autumnal.cn"
+twitter_username:
+github_username:  4ucl
+facebook_username:
+email_address:  4cclei@gmail.com
+weibo_username: cyfunl
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+future: true
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
